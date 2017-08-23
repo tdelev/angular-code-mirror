@@ -1,7 +1,7 @@
 <h2>Code mirror editor</h2>
 
 <codemirror [(ngModel)]="code"
-            [config]="{}"
+            [config]="{ mode: 'application/sparql-query', lineNumbers: true, matchBrackets: true}"
             (focus)="onFocus()"
             (blur)="onBlur()">
 </codemirror>

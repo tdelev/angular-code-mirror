@@ -1,4 +1,7 @@
 import { Component } from '@angular/core';
+import 'codemirror/mode/clike/clike';
+import 'codemirror/mode/sparql/sparql';
+import 'codemirror/addon/edit/matchbrackets';
 
 @Component({
   selector: 'app-root',
